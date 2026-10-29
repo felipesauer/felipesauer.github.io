@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://felipesauer.github.io/mnema/sitemap-index.xml
+Sitemap: https://felipesauer.github.io/monitor-sefaz/sitemap.xml
