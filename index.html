@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>felipesauer.github.io</title>
-<meta name="description" content="Projects by Felipe Sauer: mnema, signed, append-only decision records for AI coding agents.">
+<meta name="description" content="Open source projects by Felipe Sauer: mnema, monitor-sefaz, safeaccess-identum, safeaccess-inline and notagrafo.">
 <link rel="canonical" href="https://felipesauer.github.io/">
 <style>
   :root { color-scheme: light dark; --fg: #1f2328; --muted: #59636e; --bg: #ffffff; --accent: #8250df; }
@@ -12,6 +12,8 @@
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
   main { max-width: 40rem; margin: 0 auto; padding: 4rem 1rem; }
   h1 { font-size: 1.25rem; margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 0; }
+  .links { font-size: 0.9rem; }
   a { color: var(--accent); }
   p { margin: 0.25rem 0 0; color: var(--muted); }
 </style>
@@ -19,9 +21,31 @@
 <body>
 <main>
   <h1>Felipe Sauer</h1>
-  <h2><a href="https://felipesauer.github.io/mnema/">mnema</a></h2>
-  <p>Signed, append-only decision records for AI coding agents.</p>
-  <p><a href="https://github.com/felipesauer/mnema">github.com/felipesauer/mnema</a></p>
+  <section>
+    <h2><a href="https://felipesauer.github.io/mnema/">mnema</a></h2>
+    <p>Signed, append-only decision records for AI coding agents: an MCP server and CLI that hand your team's decisions to the agents' sessions and let anyone verify the record offline.</p>
+    <p class="links"><a href="https://github.com/felipesauer/mnema">source</a></p>
+  </section>
+  <section>
+    <h2><a href="https://felipesauer.github.io/monitor-sefaz/">monitor-sefaz</a></h2>
+    <p>Is SEFAZ down? An open-source availability monitor for the NF-e, NFC-e, CT-e, MDF-e and DC-e web services in Brazil's 27 states: live status, uptime history and alerts, with no digital certificate.</p>
+    <p class="links"><a href="https://github.com/felipesauer/monitor-sefaz">source</a></p>
+  </section>
+  <section>
+    <h2><a href="https://github.com/felipesauer/safeaccess-identum">safeaccess-identum</a></h2>
+    <p>Validates Brazilian documents (CPF, CNPJ, CNH, CEP, CNS, PIS, state registration for all 27 states, RENAVAM, Mercosul plate, voter title) in PHP 8.2+ and TypeScript, with one API and no production dependencies.</p>
+    <p class="links"><a href="https://github.com/felipesauer/safeaccess-identum">source</a> · <a href="https://github.com/felipesauer/safeaccess-identum-js">TypeScript</a> · <a href="https://github.com/felipesauer/safeaccess-identum-php">PHP</a></p>
+  </section>
+  <section>
+    <h2><a href="https://github.com/felipesauer/safeaccess-inline">safeaccess-inline</a></h2>
+    <p>Safe nested data access with dot notation in PHP and TypeScript: JSON, YAML, XML, INI, ENV and NDJSON, with built-in security checks, immutable writes and the same behaviour in both languages.</p>
+    <p class="links"><a href="https://github.com/felipesauer/safeaccess-inline">source</a> · <a href="https://github.com/felipesauer/safeaccess-inline-js">TypeScript</a> · <a href="https://github.com/felipesauer/safeaccess-inline-php">PHP</a></p>
+  </section>
+  <section>
+    <h2><a href="https://www.npmjs.com/org/notagrafo">notagrafo</a></h2>
+    <p>Processes and analyses Brazilian NF-e v4.00 invoices as a graph in Neo4j: XSD validation, queues, a REST API and a dashboard, with npm packages and Docker images.</p>
+    <p class="links"><a href="https://github.com/felipesauer/notagrafo">source</a></p>
+  </section>
 </main>
 </body>
 </html>
