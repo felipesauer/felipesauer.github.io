@@ -7,10 +7,13 @@ and the `robots.txt` that every project site under this host shares.
 
 | Site | Repository |
 |---|---|
-| [felipesauer.github.io/mnema](https://felipesauer.github.io/mnema/) | [felipesauer/mnema](https://github.com/felipesauer/mnema) |
 | [felipesauer.github.io/monitor-sefaz](https://felipesauer.github.io/monitor-sefaz/) | [felipesauer/monitor-sefaz](https://github.com/felipesauer/monitor-sefaz) |
 
 Each project publishes its own site from its own repository. This repository holds only the root of the host.
+
+mnema moved to the [mnema-work](https://github.com/mnema-work) organization and lives at [mnema.work](https://mnema.work/).
+The pages under `mnema/` and the `404.html` keep its old addresses here alive: each old page sends the reader to the
+same page at mnema.work, and any other path under `/mnema/` lands on the same path there.
 
 ## robots.txt
 
